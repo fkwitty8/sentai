@@ -1,0 +1,183 @@
+
+table{
+    display:;
+    border: 5px groove blue;
+    background-color: blueviolet;
+    
+}
+tr{
+    position: relative;
+}
+th[colspan]{
+    background-color: white;
+    color: blue;
+}
+.parameter p{
+    color: white;
+}
+#parameterDiv{
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: rgb(21, 21, 70);
+   
+    
+    color: aqua;
+
+}
+#parameterButton{
+position:relative ;
+top: -35%;
+left: 110%;
+color: blue;
+background-color: aqua;
+max-width: fit-content;
+height: 50px;
+}
+       #master{
+       
+        display:flex;
+       }
+       #upload{
+        color: white;
+        background-color: blue;
+        position:absolute;
+         top:10%;
+         left: 80%;
+         width:fit-content;
+         height:50px;
+         border-radius: 10%;
+         cursor: pointer;
+
+              }
+              #reports{
+                color: white;
+                background-color: blue;
+                margin-left: 500px;
+                 width:fit-content;
+                 height:50px;
+                 border-radius: 20px;
+                 cursor: pointer;
+        
+              }
+                  #files {  
+                    display: none;
+                            background-color:rgb(71, 71, 73);
+                            color:white;
+                            position:absolute;
+                            left:80%;
+                            top:13%;
+                            cursor: pointer;
+
+                                }
+
+                                #analysis {  
+                                    display: none;
+                                            background-color:rgb(71, 71, 73);
+                                            color:white;
+                                            position:relative;
+                                            left:50%;
+                                            top:50%;
+                                            cursor: pointer;
+                                            width: fit-content;
+                                            border: 2px solid blue;
+                
+                                                }
+
+                                
+                                #cli1,#cli2 {
+                                    list-style-type: none;
+                
+                                }
+                        #cli1:hover,#cli2:hover{
+                        background-color: rgb(46, 46, 49);
+                    }
+                    #challenge,#schools{
+                    background-color: rgb(125, 243, 154);
+                        display:none ;
+                        position:absolute;
+                        left: 73%;
+                        top: 15%;
+                        border: 5px solid green;
+                        width: fit-content;
+
+
+                    }
+                    #hide, #closeA,#closeSR,#closePR,#closeWL,#closeBQ{
+                        color:red;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                        background-color: black;
+                        border: 0.5px solid white;
+                        cursor: pointer;
+
+                    }
+                    #hideform1,#hideform2{
+                        color:red;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        background-color: black;
+                        border: 0.5px solid white;
+                        cursor: pointer;
+                        height: fit-content;
+                        cursor: pointer;
+
+
+
+                    }
+                   #preport,#sreport,#worstlist,#BestQNS{
+                        position: relative;
+                        display: none;
+                         top: -80px;
+                         width: fit-content;
+
+                        
+                        
+
+                        
+
+                    }
+                    
+                    #preport{
+                        position: relative;
+                        top: -80px;
+
+                        
+
+                    } 
+                   .about.section-padding h5{
+                        margin-bottom: -1%;
+                        color: white;
+                        background-color: black;
+                    }
+                  .about.section-padding  li{
+                        list-style-type: decimal;
+                        background-color: rgb(49, 45, 45);
+                        color: white;
+                        cursor: pointer;
+                    }
+                  .about.section-padding  li:hover{
+                        color:brown;
+                        background-color: black;
+                        cursor: pointer;
+                    }
+                    
+                    small{
+                        position: relative;
+                        top:-5px;
+                        right:0px;
+                        background-color: black;
+                        color: red;
+                        width: fit-content;
+                        cursor: pointer;
+
+                    }
+
+                    
+                    
+
+
+
+                   
